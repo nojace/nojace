@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Nojace doesn't work the way it should
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen
+      placeholder: |
+        1. Open a Claude Code session
+        2. …
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      multiple: true
+      options: [Claude Code, Codex, OpenCode, Custom runner, Not agent-related]
+  - type: input
+    id: version
+    attributes:
+      label: Nojace version
+      description: Nojace → About Nojace
+      placeholder: "0.4.15"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: macOS version and Mac
+      placeholder: "macOS 26.1, Apple silicon"
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, recordings or logs
+      description: Drag files in here. Please remove API keys, tokens and private code first.

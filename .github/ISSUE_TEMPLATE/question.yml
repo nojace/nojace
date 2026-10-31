@@ -1,0 +1,15 @@
+name: Question
+description: Ask how to do something in Nojace
+labels: [question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Nojace version
+      placeholder: "0.4.15"

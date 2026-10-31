@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security problem
+    url: mailto:vibe@nojace.com
+    about: Please email security issues instead of opening a public issue.
+  - name: Say hi
+    url: mailto:vibe@nojace.com
+    about: Ideas, plugins to build together, or anything else.
